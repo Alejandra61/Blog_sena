@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*MENU  */
+.section1{
+    width: 100%;
+}
+.barra{
+    width: 100%;
+    height: 88px;
+    background-color:rgb(255, 255, 255);
+    position: fixed ;
+    z-index: 100;
+}
+.logo{
+    width: 20%;
+    height: 20px;
+}
+.logo img{
+    width: 30%;
+    height: 70px;
+    margin: 10px;
+}
+.header1{
+    margin: 0px;
+    width: 100%;
+    position: relative;
+    left: 850px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: fixed ;
+    z-index: 100;
+    
+}
+
+ul, li {
+    list-style: none;
+}
+.nav li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 20px;
+     
+}
+.nav li a h4{
+    font-size: 18px;
+}
+.nav li a:hover{
+    background-color: rgba(125, 97, 190, 0.8);
+}
+.nav>li {
+    float: left;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px; 
+
+}
+
+.nav li:hover>ul {
+    display: block;
+
+}
+
+.nav li ul li {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav li ul li ul {
+    right: -40px;
+    top: 0px;
+    text-align: center;
+}
+#op{
+    min-width: 165px;
+    border-radius: 0px;
+}
+/*/meu*/
+
+header{
+    width: 100%;
+    height: 620px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    text-align: center;
+ 
+    
+}
+.contText1{
+    margin-top: 200px;
+    font-size: 85px;
+    font-family: 'Candara';
+ 
+}
+
+.contVideos{
+    width: 50%;
+    position: relative;
+    left: 380px;   
+   
+                                                                                                                         
+}
+video{
+    margin-top: 100px;
+}
